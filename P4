@@ -1,0 +1,1 @@
+cat U00096.3?report=fasta | grep -c "^>" | echo "wc -l/20" | bc
